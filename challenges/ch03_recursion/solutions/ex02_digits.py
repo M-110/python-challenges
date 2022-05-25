@@ -4,57 +4,27 @@
 
 
 def count_digits(value):
-    if value < 0:
-        raise ValueError("value must be >= 0")
-
-    # rekursiver Abbruch
-    if value < 10:
-        return 1
-
-    # rekursiver Abstieg
-    return count_digits(value // 10) + 1
+    pass
 
 
 def count_digits_shorter(value):
-    return sum([1 for _ in str(value)])
+    pass
 
 
 def count_digits_tricky(value):
-    return len(str(value))
+    pass
 
 
 def calc_sum_of_digits(value):
-    if value < 0:
-        raise ValueError("value must be >= 0")
-
-    # rekursiver Abbruch
-    if value < 10:
-        return value
-
-    remainder = value // 10
-    last_digit = value % 10
-
-    # rekursiver Abstieg
-    return calc_sum_of_digits(remainder) + last_digit
-
+    pass
 
 
 def calc_sum_of_digits_divmod(value):
-    if value < 0:
-        raise ValueError("value must be >= 0")
-
-    # rekursiver Abbruch
-    if value < 10:
-        return value
-
-    remainder, last_digit = divmod(value, 10)
-
-    # rekursiver Abstieg
-    return calc_sum_of_digits(remainder) + last_digit
+    pass
 
 
 def calc_sum_of_digits_shorter(value):
-    return sum([int(ch) for ch in str(value)])
+    pass
 
 
 def main():

@@ -8,13 +8,13 @@ from challenges.ch02_math.solutions.ex04_primes import calc_primes_up_to
 
 def main():
     def is_twin_pair(n):
-        return is_prime(n) and is_prime(n + 2)
+        pass
 
     def is_cousin_pair(n):
-        return is_prime(n) and is_prime(n + 4)
+        pass
 
     def is_sexy_pair(n):
-        return is_prime(n) and is_prime(n + 6)
+        pass
 
     twin_pairs = {}
 
@@ -32,8 +32,7 @@ def main():
 
 
 def is_prime(n):
-    primes = calc_primes_up_to(n + 1)
-    return n in primes
+    pass
 
 
 if __name__ == "__main__":

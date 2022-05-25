@@ -4,38 +4,11 @@
 
 
 def from_roman_number_v1(roman_number):
-    value = 0
-    last_digit_value = 0
-
-    for i in range(len(roman_number) - 1, -1, -1):
-        roman_digit = roman_number[i]
-        digit_value = value_map[roman_digit]
-
-        add_mode = digit_value >= last_digit_value
-        if add_mode:
-            value += digit_value
-            last_digit_value = digit_value
-        else:
-            value -= digit_value
-
-    return value
+    pass
 
 
 def from_roman_number(roman_number):
-    value = 0
-    last_digit_value = 0
-
-    for roman_digit in reversed(roman_number):
-        digit_value = value_map[roman_digit]
-
-        add_mode = digit_value >= last_digit_value
-        if add_mode:
-            value += digit_value
-            last_digit_value = digit_value
-        else:
-            value -= digit_value
-
-    return value
+    pass
 
 
 value_map = {"I": 1, "V": 5, "X": 10, "L": 50,
@@ -43,36 +16,11 @@ value_map = {"I": 1, "V": 5, "X": 10, "L": 50,
 
 
 def to_roman_number_v1(value):
-    result = ""
-    remainder = value
-
-    # absteigende Sortierung
-    for i in sorted(int_to_roman_digit_map.keys(), reverse=True):
-        if remainder > 0:
-            multiplier = i
-            roman_digit = int_to_roman_digit_map[i]
-
-            times = remainder // multiplier
-            remainder = remainder % multiplier
-            result += roman_digit * times
-
-    return result
+    pass
 
 
 def to_roman_number(value):
-    result = ""
-    remainder = value
-
-    # absteigende Sortierung
-    for i in sorted(int_to_roman_digit_map.keys(), reverse=True):
-        if remainder > 0:
-            multiplier = i
-            roman_digit = int_to_roman_digit_map[i]
-
-            times, remainder = divmod(remainder, multiplier)
-            result += roman_digit * times
-
-    return result
+    pass
 
 # intuitive Variante, dann aber nicht korrekte
 # XXXIIII

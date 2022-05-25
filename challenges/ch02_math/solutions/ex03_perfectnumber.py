@@ -7,35 +7,19 @@ from challenges.ch02_math.intro.intro import find_proper_divisors
 
 
 def is_perfect_number_simple(number):
-    # immer durch 1 teilbar
-    sum_of_multipliers = 1
-
-    for i in range(2, int(number / 2) + 1):
-        if number % i == 0:
-            sum_of_multipliers += i
-
-    return sum_of_multipliers == number
+    pass
 
 
 def calc_perfect_numbers(max_exclusive):
-    results = []
-
-    for i in range(2, max_exclusive):
-        if is_perfect_number_simple(i):
-            results.append(i)
-
-    return results
+    pass
 
 
 def calc_perfect_numbers_comprehension(max_exclusive):
-    return [i for i in range(2, max_exclusive)
-            if is_perfect_number_simple(i)]
+    pass
 
 
 def is_perfect_number_based_on_proper_divisors(number):
-    divisors = find_proper_divisors(number)
-
-    return sum(divisors) == number
+    pass
 
 
 def main():

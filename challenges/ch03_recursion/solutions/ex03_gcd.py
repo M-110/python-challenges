@@ -4,26 +4,15 @@
 
 
 def gcd(a, b):
-    # rekursiver Abbruch
-    if b == 0:
-        return a
-
-    # rekursiver Abstieg
-    return gcd(b, a % b)
+    pass
 
 
 def gcd_iterative(a, b):
-    while b != 0:
-        remainder = a % b
-        a = b
-        b = remainder
-
-    # hier gilt b == 0
-    return a
+    pass
 
 
 def lcm(a, b):
-    return a * b // gcd(a, b)
+    pass
 
 
 def main():

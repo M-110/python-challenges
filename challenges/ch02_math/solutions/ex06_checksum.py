@@ -4,16 +4,7 @@
 
 
 def calc_checksum(input):
-    if not input.isdigit():
-        raise ValueError("illegal chars: not only digits")
-
-    crc = 0
-
-    for i, current_char in enumerate(input):
-        value = (int(current_char)) * (i + 1)
-        crc += value
-
-    return int(crc % 10)
+    pass
 
 
 def main():

@@ -7,32 +7,7 @@ from challenges.ch02_math.solutions.ex04_primes import calc_primes_up_to
 
 
 def calc_prime_factors(value):
-    all_primes = calc_primes_up_to(value)
-
-    prime_factors = []
-    remaining_value = value
-
-    # solange gerade, immer wieder durch 2 teilen
-    while remaining_value % 2 == 0 and remaining_value >= 2:
-        remaining_value = remaining_value // 2
-        prime_factors.append(2)
-
-    # prüfe Rest auf Primzahl
-    if is_prime(all_primes, remaining_value):
-        prime_factors.append(remaining_value)
-    else:
-        # Rest ist keine Primzahl, weitere Prüfung
-        while remaining_value > 1:
-            for current_prime in all_primes:
-                if remaining_value % current_prime == 0:
-                    remaining_value = remaining_value // current_prime
-                    prime_factors.append(current_prime)
-
-                    # starte nochmal von vorne, weil jeder Teiler
-                    # mehrfach vorkommen kann
-                    break
-
-    return prime_factors
+    pass
 
 
 def is_prime(all_primes, n):

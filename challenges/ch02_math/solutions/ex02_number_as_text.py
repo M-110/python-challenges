@@ -10,39 +10,19 @@ value_to_text_mapping = {
 
 
 def digit_as_text(n):
-    return value_to_text_mapping[n % 10]
+    pass
 
 
 def number_as_text(n):
-    value = ""
-
-    remaining_value = n
-    while remaining_value > 0:
-        remainder_as_text = digit_as_text(remaining_value % 10)
-        remaining_value = int(remaining_value / 10)
-        value = remainder_as_text + " " + value
-
-    return value.strip()
+    pass
 
 
 def number_as_text(n):
-    value = ""
-
-    remaining_value = n
-    while remaining_value > 0:
-        remaining_value, remainder = divmod(remaining_value, 10)
-        value = digit_as_text(remainder) + " " + value
-
-    return value.strip()
+    pass
 
 
 def number_as_text_shorter(n):
-    value = ""
-
-    for ch in str(n):
-        value += digit_as_text(int(ch)) + " "
-
-    return value.strip()
+    pass
 
 
 def main():

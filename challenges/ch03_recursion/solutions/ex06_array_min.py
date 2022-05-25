@@ -7,21 +7,11 @@ import sys
 
 
 def min_rec(values):
-    # Integer-MAX_VALUE = sys.maxsize
-    return min_helper(values, 0, sys.maxsize)
+    pass
 
 
 def min_helper(values, pos, min_value):
-    # rekursiver Abbruch
-    if pos >= len(values):
-        return min_value
-
-    value = values[pos]
-    if value < min_value:
-        min_value = value
-
-    # rekursiver Abstieg
-    return min_helper(values, pos + 1, min_value)
+    pass
 
 
 def main():

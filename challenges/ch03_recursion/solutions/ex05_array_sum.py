@@ -7,32 +7,23 @@ import functools
 
 
 def sum_rec(values):
-    return sum_helper(values, 0)
+    pass
 
 
 def sum_helper(values, pos):
-    # rekursiver Abbruch
-    if pos >= len(values):
-        return 0
-
-    # rekursiver Abstieg
-    return values[pos] + sum_helper(values, pos + 1)
+    pass
 
 
 def sum_tail(values):
-    return sum_tail_helper(values, len(values) - 1)
+    pass
 
 
 def sum_tail_helper(values, pos):
-    if pos < 0:
-        return 0
-
-    # rekursiver Abstieg
-    return sum_tail_helper(values, pos - 1) + values[pos]
+    pass
 
 
 def sum_lambda(values):
-    return functools.reduce(lambda x, y: x + y, values)
+    pass
 
 
 def main():

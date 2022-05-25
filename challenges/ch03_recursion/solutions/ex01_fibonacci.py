@@ -4,33 +4,11 @@
 
 
 def fib_rec(n):
-    if n <= 0:
-        raise ValueError("n must be >= 1")
-
-    if n == 1 or n == 2:
-        return 1
-
-    # rekursiver Abstieg
-    return fib_rec(n - 1) + fib_rec(n - 2)
+    pass
 
 
 def fib_iterative(n):
-    if n <= 0:
-        raise ValueError("n must be >= 1")
-
-    if n == 1 or n == 2:
-        return 1
-
-    fib_n_2 = 1
-    fib_n_1 = 1
-
-    for _ in range(2, n):
-        fib_n = fib_n_1 + fib_n_2
-        # um eins "weiterschieben"
-        fib_n_2 = fib_n_1
-        fib_n_1 = fib_n
-
-    return fib_n
+    pass
 
 
 def main():
