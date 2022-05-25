@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch07_recursion_advanced.solutions.ex06_math_operations_v1 import find_all_combinations, all_combinations_with_value
+from challenges.ch07_recursion_advanced.solutions.ex06_math_operations_v1 import find_all_combinations, all_combinations_with_value
 
 
 @pytest.mark.parametrize("digits,  expected",

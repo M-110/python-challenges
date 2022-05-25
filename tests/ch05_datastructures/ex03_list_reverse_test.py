@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex03_list_reverse import reverse, reverse_inplace, reverse_with_slicing
+from challenges.ch05_datastructures.solutions.ex03_list_reverse import reverse, reverse_inplace, reverse_with_slicing
 
 
 def list_reverse_inputs_and_expected():

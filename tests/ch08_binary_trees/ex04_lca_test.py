@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch08_binary_trees.solutions.ex04_lca import create_lca_example_tree, find_lca
+from challenges.ch08_binary_trees.solutions.ex04_lca import create_lca_example_tree, find_lca
 
 
 @pytest.mark.parametrize("value1, value2, expected",

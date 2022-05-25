@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex10_number_palindrome import calc_pow_of_ten, count_digits, is_number_palindrome
+from challenges.ch03_recursion.solutions.ex10_number_palindrome import calc_pow_of_ten, count_digits, is_number_palindrome
 
 
 @pytest.mark.parametrize("n, expected", [(1, 0), (22, 1), (333, 2),

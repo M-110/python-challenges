@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex06_longest_subsequence import find_longest_growing_sequence
+from challenges.ch05_datastructures.solutions.ex06_longest_subsequence import find_longest_growing_sequence
 
 
 @pytest.mark.parametrize("values, expected",

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex12_count_substrings import count_substrings, count_substrings_v2, \
+from challenges.ch03_recursion.solutions.ex12_count_substrings import count_substrings, count_substrings_v2, \
     count_substrings_optimized
 
 

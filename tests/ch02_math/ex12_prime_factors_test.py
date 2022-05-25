@@ -5,7 +5,7 @@
 import pytest
 
 ## PYTEST
-from ch02_math.solutions.ex12_primefactors import calc_prime_factors, calc_prime_factors_optimized
+from challenges.ch02_math.solutions.ex12_primefactors import calc_prime_factors, calc_prime_factors_optimized
 
 
 def value_and_prime_factors():

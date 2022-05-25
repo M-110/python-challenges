@@ -5,7 +5,7 @@
 import pytest
 
 
-from ch04_strings.solutions.ex11_morse_code import to_morse_code
+from challenges.ch04_strings.solutions.ex11_morse_code import to_morse_code
 
 
 @pytest.mark.parametrize("input, expected",

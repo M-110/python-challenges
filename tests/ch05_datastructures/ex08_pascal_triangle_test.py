@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex08_pascal_triangle import pascal
+from challenges.ch05_datastructures.solutions.ex08_pascal_triangle import pascal
 
 
 @pytest.mark.parametrize("n, expected",

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex05_array_sum import sum_rec, sum_tail, sum_lambda
+from challenges.ch03_recursion.solutions.ex05_array_sum import sum_rec, sum_tail, sum_lambda
 
 
 @pytest.mark.parametrize("values, expected",

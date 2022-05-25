@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex07_braces import check_parentheses, check_parentheses_v2, CheckResult
+from challenges.ch05_datastructures.solutions.ex07_braces import check_parentheses, check_parentheses_v2, CheckResult
 
 
 @pytest.mark.parametrize("values, expected",

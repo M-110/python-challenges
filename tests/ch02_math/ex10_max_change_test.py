@@ -5,7 +5,7 @@
 import pytest
 
 ## PYTEST
-from ch02_math.solutions.ex10_max_change import calc_max_possible_change
+from challenges.ch02_math.solutions.ex10_max_change import calc_max_possible_change
 
 
 @pytest.mark.parametrize("coins, max_change",

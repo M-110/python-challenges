@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex01_find_common import find_common, find_common_short
+from challenges.ch05_datastructures.solutions.ex01_find_common import find_common, find_common_short
 
 
 def inputs_and_expected():

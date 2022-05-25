@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex12_list_merge import merge, merge_with_iter
+from challenges.ch05_datastructures.solutions.ex12_list_merge import merge, merge_with_iter
 
 
 def inputs_and_expected():

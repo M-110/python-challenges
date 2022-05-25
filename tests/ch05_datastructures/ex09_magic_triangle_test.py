@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex09_magic_triangle import is_magic_triangle, is_magic_triangle_v2
+from challenges.ch05_datastructures.solutions.ex09_magic_triangle import is_magic_triangle, is_magic_triangle_v2
 
 
 @pytest.mark.parametrize("values, expected",

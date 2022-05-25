@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch09_search_and_sort.solutions.ex06_quick_sort import quick_sort_inplace
+from challenges.ch09_search_and_sort.solutions.ex06_quick_sort import quick_sort_inplace
 
 
 @pytest.mark.parametrize("values, expected",

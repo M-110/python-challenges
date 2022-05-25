@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex04_palindrome import is_palindrome_rec, is_palindrome_special, is_palindrome, \
+from challenges.ch04_strings.solutions.ex04_palindrome import is_palindrome_rec, is_palindrome_special, is_palindrome, \
     is_palindrome_with_reverse, is_palindrome_special_with_reg_ex
 
 

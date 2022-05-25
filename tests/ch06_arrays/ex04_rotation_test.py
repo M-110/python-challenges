@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch06_arrays.solutions.ex04_rotate_inplace import rotate_inplace
+from challenges.ch06_arrays.solutions.ex04_rotate_inplace import rotate_inplace
 
 
 def test_rotation():

@@ -4,8 +4,8 @@
 
 import pytest
 
-from ch02_math.solutions import ex01_basics
-from ch02_math.solutions.ex01_basics import calc, calc_v2, \
+from challenges.ch02_math.solutions import ex01_basics
+from challenges.ch02_math.solutions.ex01_basics import calc, calc_v2, \
     calc_sum_and_count_all_numbers_div_by_2_or_7_v2
 
 @pytest.mark.parametrize("m, n, expected",

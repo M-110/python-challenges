@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch07_recursion_advanced.solutions.ex02_edit_distance import edit_distance
+from challenges.ch07_recursion_advanced.solutions.ex02_edit_distance import edit_distance
 
 
 @pytest.mark.parametrize("value1, value2, expected",

@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch06_arrays.solutions.ex02_flip import flip_horizontally, flip_vertically, flip_horizontally_v2, \
+from challenges.ch06_arrays.solutions.ex02_flip import flip_horizontally, flip_vertically, flip_horizontally_v2, \
     flip_vertically_just_for_lists
 
 

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex02_digits import count_digits, calc_sum_of_digits, calc_sum_of_digits_divmod, \
+from challenges.ch03_recursion.solutions.ex02_digits import count_digits, calc_sum_of_digits, calc_sum_of_digits_divmod, \
     count_digits_tricky, calc_sum_of_digits_shorter, count_digits_shorter
 
 

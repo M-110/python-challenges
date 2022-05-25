@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex09_wellformed_braces import check_braces
+from challenges.ch04_strings.solutions.ex09_wellformed_braces import check_braces
 
 
 @pytest.mark.parametrize("input, expected, hint",

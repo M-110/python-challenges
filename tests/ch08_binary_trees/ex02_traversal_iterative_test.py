@@ -2,8 +2,8 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch08_binary_trees.solutions.ex02_traverals_iterative import inorder_iterative, preorder_iterative, postorder_iterative
-from ch08_binary_trees.intro import example_trees
+from challenges.ch08_binary_trees.solutions.ex02_traverals_iterative import inorder_iterative, preorder_iterative, postorder_iterative
+from challenges.ch08_binary_trees.intro import example_trees
 
 
 def test_inorder_iterative():

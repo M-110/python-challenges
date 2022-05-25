@@ -5,7 +5,7 @@
 import pytest
 import numpy as np
 
-from ch06_arrays.solutions.ex03_palindrome import is_palindrome_rec, is_palindrome_iterative, is_palindrome_short
+from challenges.ch06_arrays.solutions.ex03_palindrome import is_palindrome_rec, is_palindrome_iterative, is_palindrome_short
 
 
 def values_and_expected():

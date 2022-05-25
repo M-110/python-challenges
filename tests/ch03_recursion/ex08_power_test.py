@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex08_power_of import is_power_of_2, power_of_iterative, power_of, power_of_optimized
+from challenges.ch03_recursion.solutions.ex08_power_of import is_power_of_2, power_of_iterative, power_of, power_of_optimized
 
 
 @pytest.mark.parametrize("value, expected",

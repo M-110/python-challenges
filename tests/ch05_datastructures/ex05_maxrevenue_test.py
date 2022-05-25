@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex05_maxrevenue import max_revenue_optimized, max_revenue
+from challenges.ch05_datastructures.solutions.ex05_maxrevenue import max_revenue_optimized, max_revenue
 
 
 def prices_and_expected():

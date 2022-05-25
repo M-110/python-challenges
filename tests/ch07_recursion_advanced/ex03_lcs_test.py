@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch07_recursion_advanced.solutions.ex03_lcs import lcs, lcs_optimized, lcs_from_start
+from challenges.ch07_recursion_advanced.solutions.ex03_lcs import lcs, lcs_optimized, lcs_from_start
 
 
 @pytest.mark.parametrize("value1, value2, expected",

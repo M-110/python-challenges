@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch09_search_and_sort.solutions.ex07_bucket_sort import bucket_sort
+from challenges.ch09_search_and_sort.solutions.ex07_bucket_sort import bucket_sort
 
 
 @pytest.mark.parametrize("values, max, expected",

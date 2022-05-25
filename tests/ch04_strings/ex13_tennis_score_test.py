@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex13_tennis_score import tennis_score
+from challenges.ch04_strings.solutions.ex13_tennis_score import tennis_score
 
 
 @pytest.mark.parametrize("score, expected",

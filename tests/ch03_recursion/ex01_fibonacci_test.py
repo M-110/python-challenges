@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex01_fibonacci import fib_rec, fib_iterative
+from challenges.ch03_recursion.solutions.ex01_fibonacci import fib_rec, fib_iterative
 
 
 def input_and_expected():

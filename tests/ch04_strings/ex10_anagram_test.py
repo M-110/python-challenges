@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex10_anagram import is_anagram
+from challenges.ch04_strings.solutions.ex10_anagram import is_anagram
 
 
 @pytest.mark.parametrize("str1, str2, expected",

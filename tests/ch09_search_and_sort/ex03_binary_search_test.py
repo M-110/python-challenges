@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch09_search_and_sort.solutions.ex03_binary_search import binary_search, binary_search_iterative, binary_search_optimized
+from challenges.ch09_search_and_sort.solutions.ex03_binary_search import binary_search, binary_search_iterative, binary_search_optimized
 
 
 @pytest.mark.parametrize("sorted_values, search_for, expected",

@@ -5,7 +5,7 @@
 
 import pytest
 
-from ch02_math.solutions.ex03_perfectnumber import is_perfect_number_simple, calc_perfect_numbers, is_perfect_number_based_on_proper_divisors
+from challenges.ch02_math.solutions.ex03_perfectnumber import is_perfect_number_simple, calc_perfect_numbers, is_perfect_number_based_on_proper_divisors
 
 
 @pytest.mark.parametrize("n, expected",

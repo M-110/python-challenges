@@ -8,7 +8,7 @@ import unittest
 import pytest
 from parameterized import parameterized
 
-from ch02_math.solutions.ex04_primes import calc_primes_up_to, is_prime, calc_primes_up_to_v2
+from challenges.ch02_math.solutions.ex04_primes import calc_primes_up_to, is_prime, calc_primes_up_to_v2
 
 
 class Ex04PrimesTest(unittest.TestCase):

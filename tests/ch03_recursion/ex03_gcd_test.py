@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex03_gcd import gcd, gcd_iterative, lcm
+from challenges.ch03_recursion.solutions.ex03_gcd import gcd, gcd_iterative, lcm
 
 
 @pytest.mark.parametrize("a, b, expected",

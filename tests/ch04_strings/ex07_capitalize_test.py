@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex07_capitalize import capitalize, capitalize_words, capitalize_special_2
+from challenges.ch04_strings.solutions.ex07_capitalize import capitalize, capitalize_words, capitalize_special_2
 
 
 @pytest.mark.parametrize("input, expected",

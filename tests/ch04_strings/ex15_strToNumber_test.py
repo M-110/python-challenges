@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex15_str_to_number import str_to_number, str_to_number_bonus
+from challenges.ch04_strings.solutions.ex15_str_to_number import str_to_number, str_to_number_bonus
 
 
 @pytest.mark.parametrize("input, expected",

@@ -6,7 +6,7 @@ import pytest
 
 import csv
 
-from ch02_math.solutions.ex07_roman_numbers import from_roman_number, to_roman_number
+from challenges.ch02_math.solutions.ex07_roman_numbers import from_roman_number, to_roman_number
 
 def arabic_to_roman_number_map():
     result = []

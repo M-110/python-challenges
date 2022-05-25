@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch06_arrays.solutions.ex13_minesweeper import calc_bomb_count
+from challenges.ch06_arrays.solutions.ex13_minesweeper import calc_bomb_count
 
 
 # Verstecken der Randfeld - Logik und der Konvertierung

@@ -7,7 +7,7 @@ import unittest
 import pytest
 from parameterized import parameterized
 
-from ch02_math.solutions.ex02_number_as_text import number_as_text
+from challenges.ch02_math.solutions.ex02_number_as_text import number_as_text
 
 
 class Ex02_NumberAsText_Test(unittest.TestCase):

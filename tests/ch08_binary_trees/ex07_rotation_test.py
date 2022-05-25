@@ -2,9 +2,9 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch08_binary_trees.solutions.ex05_levelorder import levelorder
-from ch08_binary_trees.solutions.ex07_rotation import rotate_left, rotate_right
-from ch08_binary_trees.intro import example_trees
+from challenges.ch08_binary_trees.solutions.ex05_levelorder import levelorder
+from challenges.ch08_binary_trees.solutions.ex07_rotation import rotate_left, rotate_right
+from challenges.ch08_binary_trees.intro import example_trees
 
 
 def test_rotate_left():

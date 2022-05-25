@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex02_join import join
+from challenges.ch04_strings.solutions.ex02_join import join
 
 
 @pytest.mark.parametrize("values, delimiter, expected",

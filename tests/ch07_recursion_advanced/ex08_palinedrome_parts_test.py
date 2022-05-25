@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch07_recursion_advanced.solutions.ex08_all_palidrome_substrings import all_palindrome_parts_rec, \
+from challenges.ch07_recursion_advanced.solutions.ex08_all_palidrome_substrings import all_palindrome_parts_rec, \
     all_palindrome_parts_rec_optimized, all_palindrome_parts_rec_optimized_v3, longest_palindrome_part
 
 

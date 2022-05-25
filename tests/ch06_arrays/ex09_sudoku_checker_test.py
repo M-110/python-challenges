@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch06_arrays.solutions.ex09_sudoku_checker import is_sudoku_valid
+from challenges.ch06_arrays.solutions.ex09_sudoku_checker import is_sudoku_valid
 
 def create_initialized_board():
     return [[1, 2, 0, 4, 5, 0, 7, 8, 9],

@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch08_binary_trees.solutions.ex06_levelsum import create_example_level_sum_tree, level_sum, level_sum_depth_first
+from challenges.ch08_binary_trees.solutions.ex06_levelsum import create_example_level_sum_tree, level_sum, level_sum_depth_first
 
 
 def test_level_sum():

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex04_reverse_string import reverse_string
+from challenges.ch03_recursion.solutions.ex04_reverse_string import reverse_string
 
 
 @pytest.mark.parametrize("input, expected",

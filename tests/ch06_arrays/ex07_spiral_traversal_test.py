@@ -4,8 +4,8 @@
 
 import pytest
 
-from ch06_arrays.solutions.ex07_spiral_traversal import spiral_traversal
-from ch06_arrays.solutions.ex07_spiral_traversal_optimized import spiral_traversal_optimized
+from challenges.ch06_arrays.solutions.ex07_spiral_traversal import spiral_traversal
+from challenges.ch06_arrays.solutions.ex07_spiral_traversal_optimized import spiral_traversal_optimized
 
 
 def values_and_expected():

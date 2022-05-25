@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex14_version_numbers import compare_versions
+from challenges.ch04_strings.solutions.ex14_version_numbers import compare_versions
 
 
 @pytest.mark.parametrize("version1, version2, expected",

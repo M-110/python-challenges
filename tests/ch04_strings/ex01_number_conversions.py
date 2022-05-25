@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex01_number_conversions import is_binary_number, binary_to_decimal, hex_to_decimal, \
+from challenges.ch04_strings.solutions.ex01_number_conversions import is_binary_number, binary_to_decimal, hex_to_decimal, \
     is_binary_number_v2
 
 

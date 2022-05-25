@@ -6,7 +6,7 @@ import sys
 
 import pytest
 
-from ch03_recursion.solutions.ex06_array_min import min_rec
+from challenges.ch03_recursion.solutions.ex06_array_min import min_rec
 
 
 @pytest.mark.parametrize("values, expected",

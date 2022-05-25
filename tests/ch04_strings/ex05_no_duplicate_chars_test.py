@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex05_no_duplicate_chars import check_no_duplicate_chars, check_no_duplicate_chars_v2
+from challenges.ch04_strings.solutions.ex05_no_duplicate_chars import check_no_duplicate_chars, check_no_duplicate_chars_v2
 
 
 def input_and_expected():

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex08_rotation import contains_rotation
+from challenges.ch04_strings.solutions.ex08_rotation import contains_rotation
 
 
 @pytest.mark.parametrize("str1, str2, expected",

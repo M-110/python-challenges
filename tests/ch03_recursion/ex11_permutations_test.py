@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex11_permutations import calc_permutations, calc_permutations_mini_opt, \
+from challenges.ch03_recursion.solutions.ex11_permutations import calc_permutations, calc_permutations_mini_opt, \
     calc_permutations_built_in
 
 

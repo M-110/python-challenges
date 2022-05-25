@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex10_most_frequent_element import value_count, sort_dict_by_value
+from challenges.ch05_datastructures.solutions.ex10_most_frequent_element import value_count, sort_dict_by_value
 
 
 @pytest.mark.parametrize("values, expected",

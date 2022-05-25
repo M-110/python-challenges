@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch09_search_and_sort.solutions.ex04_insertion_sort import insertion_sort
+from challenges.ch09_search_and_sort.solutions.ex04_insertion_sort import insertion_sort
 
 
 def test_insertion_sort():

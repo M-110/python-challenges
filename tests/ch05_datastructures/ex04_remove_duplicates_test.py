@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex04_remove_duplicates import remove_duplicates, remove_duplicates_with_dict
+from challenges.ch05_datastructures.solutions.ex04_remove_duplicates import remove_duplicates, remove_duplicates_with_dict
 
 
 def inputs_and_expected():

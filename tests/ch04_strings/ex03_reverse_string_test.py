@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex03_reverse_string import reverse_inplace, reverse
+from challenges.ch04_strings.solutions.ex03_reverse_string import reverse_inplace, reverse
 
 
 def input_and_expected():

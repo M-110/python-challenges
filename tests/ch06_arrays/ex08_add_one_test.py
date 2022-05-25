@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch06_arrays.solutions.ex08_add_one import add_one
+from challenges.ch06_arrays.solutions.ex08_add_one import add_one
 
 
 def values_and_expected():

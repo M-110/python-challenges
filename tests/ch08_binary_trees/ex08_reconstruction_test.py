@@ -4,8 +4,8 @@
 
 import pytest
 
-from ch08_binary_trees.solutions.ex05_levelorder import levelorder
-from ch08_binary_trees.solutions.ex08_reconstruct import reconstruct, reconstruct_clearer
+from challenges.ch08_binary_trees.solutions.ex05_levelorder import levelorder
+from challenges.ch08_binary_trees.solutions.ex08_reconstruct import reconstruct, reconstruct_clearer
 
 
 def test_reconstruct_from_list():

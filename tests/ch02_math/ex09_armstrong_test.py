@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch02_math.solutions.ex09_armstrong import calc_armstrong_numbers, calc_numbers
+from challenges.ch02_math.solutions.ex09_armstrong import calc_armstrong_numbers, calc_numbers
 
 
 def test_calc_armstrong_numbers():

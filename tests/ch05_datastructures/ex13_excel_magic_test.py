@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex13_excel_magic import generate_following_values, generate_following_values_for_predefined
+from challenges.ch05_datastructures.solutions.ex13_excel_magic import generate_following_values, generate_following_values_for_predefined
 
 
 @pytest.mark.parametrize("start_value, sequence_length, expected",

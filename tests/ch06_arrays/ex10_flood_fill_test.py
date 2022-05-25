@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch06_arrays.solutions.ex10_flood_fill import flood_fill
+from challenges.ch06_arrays.solutions.ex10_flood_fill import flood_fill
 
 
 def create_world_and_expected_fills():

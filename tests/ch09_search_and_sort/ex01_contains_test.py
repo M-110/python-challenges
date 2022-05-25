@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch09_search_and_sort.solutions.ex01_contains import contains_all, contains_all_v2
+from challenges.ch09_search_and_sort.solutions.ex01_contains import contains_all, contains_all_v2
 
 
 @pytest.mark.parametrize("values, search_values, expected",

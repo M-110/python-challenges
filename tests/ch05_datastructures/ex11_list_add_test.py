@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch05_datastructures.solutions.ex11_list_add import list_add_improved, list_add_with_iter, list_add, \
+from challenges.ch05_datastructures.solutions.ex11_list_add import list_add_improved, list_add_with_iter, list_add, \
     list_add_inverse
 
 

@@ -7,7 +7,7 @@ import unittest
 import pytest
 from parameterized import parameterized
 
-from ch02_math.solutions.ex06_checksum import calc_checksum
+from challenges.ch02_math.solutions.ex06_checksum import calc_checksum
 
 
 class Ex06_CalcChecksum_Test(unittest.TestCase):

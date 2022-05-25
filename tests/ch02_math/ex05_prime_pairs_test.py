@@ -5,7 +5,7 @@
 import pytest
 
 ## PYTEST
-from ch02_math.solutions.ex05_prime_pairs_optimized2 import calc_pairs
+from challenges.ch02_math.solutions.ex05_prime_pairs_optimized2 import calc_pairs
 
 
 @pytest.mark.parametrize("n, expected",

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch06_arrays.solutions.ex11_array_min_max_and_pos import find_min, find_max, find_min_pos, find_max_pos
+from challenges.ch06_arrays.solutions.ex11_array_min_max_and_pos import find_min, find_max, find_min_pos, find_max_pos
 
 
 def test_find_min_and_max():

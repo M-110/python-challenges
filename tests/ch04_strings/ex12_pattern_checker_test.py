@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex12_pattern_checker import matches_pattern
+from challenges.ch04_strings.solutions.ex12_pattern_checker import matches_pattern
 
 
 @pytest.mark.parametrize("pattern, input, expected",

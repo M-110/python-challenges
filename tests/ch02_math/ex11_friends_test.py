@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch02_math.solutions.ex11_friends import calc_friends
+from challenges.ch02_math.solutions.ex11_friends import calc_friends
 
 
 @pytest.mark.parametrize("max_exclusive, friends",

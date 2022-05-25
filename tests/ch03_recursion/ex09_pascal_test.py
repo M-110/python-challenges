@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex09_pascal_triangle import calc_pascal_with_action
+from challenges.ch03_recursion.solutions.ex09_pascal_triangle import calc_pascal_with_action
 
 
 @pytest.mark.parametrize("n, expected",

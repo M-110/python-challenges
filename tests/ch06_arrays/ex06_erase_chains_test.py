@@ -2,7 +2,7 @@
 #
 # Copyright 2020 by Michael Inden
 
-from ch06_arrays.solutions.ex06_erase_and_fall_down import erase_chains, fall_down
+from challenges.ch06_arrays.solutions.ex06_erase_and_fall_down import erase_chains, fall_down
 
 
 def test_erase_chains_initial_show_case():

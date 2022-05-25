@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch04_strings.solutions.ex06_remove_duplicates import remove_duplicates
+from challenges.ch04_strings.solutions.ex06_remove_duplicates import remove_duplicates
 
 
 @pytest.mark.parametrize("input, expected",

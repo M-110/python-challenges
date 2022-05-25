@@ -4,7 +4,7 @@
 
 import numpy as np
 
-from ch06_arrays.solutions.ex05_jewels_board_init import check_board_validity
+from challenges.ch06_arrays.solutions.ex05_jewels_board_init import check_board_validity
 
 
 def test_check_board_validity_with_conflicts():

@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch03_recursion.solutions.ex07_convert import to_binary, to_octal, to_hex
+from challenges.ch03_recursion.solutions.ex07_convert import to_binary, to_octal, to_hex
 
 
 @pytest.mark.parametrize("value, expected",

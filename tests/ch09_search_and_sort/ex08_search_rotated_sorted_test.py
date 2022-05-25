@@ -4,7 +4,7 @@
 
 import pytest
 
-from ch09_search_and_sort.solutions.ex08_serach_rotated_sorted import find_flank_pos, binary_search_rotated, min_value, max_value
+from challenges.ch09_search_and_sort.solutions.ex08_serach_rotated_sorted import find_flank_pos, binary_search_rotated, min_value, max_value
 
 
 @pytest.mark.parametrize("values, expected",
