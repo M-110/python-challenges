@@ -4,10 +4,11 @@
 
 
 import itertools
+import math
 
 
 def is_prime(potentially_prime):
-    pass
+    return all(potentially_prime % i for i in range(2, potentially_prime))
 
 
 def erase_multiples_of_current(values, number):
@@ -23,11 +24,18 @@ def build_primes_list_old(is_potentially_prime):
 
 
 def calc_primes_up_to(max_value):
-    pass
+    return [i for i in range(2, max_value+1) if is_prime(i)]
 
 
 def calc_primes_up_to_v2(max_value):
-    pass
+    A = [True] * (max_value + 1)
+    for i in range(2, int(math.sqrt(max_value)) + 1):
+        if A[i]:
+            for j in range(i**2, max_value + 1, i):
+                A[j] = False
+    A[:2] = [False, False]
+    return [i for i in range(max_value + 1) if A[i]]
+
 
 
 def main():

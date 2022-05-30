@@ -4,19 +4,29 @@
 
 
 def calc(m, n):
-    pass
+    return m * n // 2 % 7
 
 
 def calc_v2(m, n):
-    pass
+    return int(m * n / 2) % 7
 
 
 def calc_sum_and_count_all_numbers_div_by_2_or_7(max_exclusive):
-    pass
+    count = 0
+    total = 0
+    for i in range(3, max_exclusive):
+        if not i % 2:
+            count += 1
+            total += i
+        elif not i % 7:
+            count += 1
+            total += i
+    return count, total
 
 
 def calc_sum_and_count_all_numbers_div_by_2_or_7_v2(max_exclusive):
-    pass
+    numbers = [i for i in range(1, max_exclusive) if not i % 2 or not i % 7]
+    return dict(count=len(numbers), sum=sum(numbers))
 
 
 class ReturnCode:
@@ -33,11 +43,11 @@ class ReturnCode:
 
 
 def is_even(n):
-    pass
+    return not n % 2
 
 
 def is_odd(n):
-    pass
+    return bool(n % 2)
 
 
 def main():

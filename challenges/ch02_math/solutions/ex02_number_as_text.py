@@ -10,19 +10,15 @@ value_to_text_mapping = {
 
 
 def digit_as_text(n):
-    pass
+    return value_to_text_mapping[int(n)]
 
 
 def number_as_text(n):
-    pass
-
-
-def number_as_text(n):
-    pass
+    return ' '.join(map(digit_as_text, str(n)))
 
 
 def number_as_text_shorter(n):
-    pass
+    return ' '.join(map(digit_as_text, str(n)))
 
 
 def main():
